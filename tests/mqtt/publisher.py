@@ -13,4 +13,4 @@ import paho.mqtt.publish as publish
 # client.connect("wangdrew.net", 1883, 60)
 # client.on_connect = on_connect
 
-publish.single("testtopic", payload="lalalalala huh", hostname="wangdrew.net", port=1883)
+publish.single("power", payload="hello world", hostname="wangdrew.net", port=1883)
